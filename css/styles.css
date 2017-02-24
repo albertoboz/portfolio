@@ -1,0 +1,314 @@
+html,
+body {
+  background-color: #FFF;
+  /*color: #34495e;*/
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+/*header*/
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/*button style*/
+.btn-style {
+  margin-left: 5px;
+  background-color: #193E5C;
+  color: #FFF;
+  border-radius: 10px;
+}
+.btn-style:hover{
+  color: yellow;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+/*navigation bar*/
+
+.navbar a {
+  text-transform: uppercase;
+}
+.nav a:hover {
+  color: #fff;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+.nav li:hover {
+  background-color: #000;
+  transition: background-color 600ms;
+  -webkit-transition: background-color 600ms;
+}
+.logo {
+  text-align: center;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*****home page*****/
+
+#title {
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  font-weight: bold;
+}
+
+#profession {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.icons {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 2.5em;
+}
+#index {
+  padding-top: 50px;
+}
+
+/*****work*****/
+
+.work-layout {
+  padding: 10px;
+}
+.description {
+  text-align: center;
+  padding-top: 20px;
+}
+#work2{
+  background-color: #E5E5E5;
+  padding-bottom: 100px;
+}
+.img-work2{
+  float: none;
+  margin: auto;
+}
+#work1{
+  padding-bottom: 100px;
+}
+/*****work images preview*****/
+
+.work-img {
+  display: block;
+  margin: auto;
+  position: relative;
+}
+.info {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  right: 15%;
+  padding-left: 5px;
+  color:#fff;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  text-transform:uppercase;
+  font-weight:900;
+  font-size: 1.1em;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display: none;
+  background-color: #49BCAB;
+  border-radius: 7px;
+}
+.proj-title {
+  font-weight:300;
+}
+
+/*****about*****/
+
+#about {
+  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#img-profile {
+  max-width: 50%;
+}
+#first-col {
+  text-align: center;
+}
+#skill-list {
+  padding: 10px 10px;
+  list-style: circle;
+}
+#skills {
+  color: #9e0606;
+}
+#skill-list li {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  list-style: circle;
+  font-size: 1.1em;
+}
+.main-text {
+  padding-top: 40px;
+}
+
+/*****Learn more page*****/
+
+.panel-default .panel-heading {
+  background-color: #193E5C;
+  color: #FFF;
+}
+.panel-body {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.1em;
+}
+.glyphicon-plus {
+  font-size: 0.7em;
+}
+.btn-learn {
+  margin-right: 40px;
+  display: inline-block;
+  float: right;
+}
+.learn-more-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.learn-more {
+  text-align: left;
+  margin-left: 40px;
+  display: inline;
+}
+#learn-more {
+  background-color: #E5E5E5;
+  padding-top:50px;
+  padding-bottom: 100px;
+}
+#modalembed {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+}
+.close-modal {
+  border-radius: 20px;
+  background-color: black;
+}
+#accordion {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/*****contact page*****/
+
+#contact {
+  background-image: url("../img/contact-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  padding: 50px 50px 100px 50px;
+}
+#contact-header {
+  padding-top: 0;
+}
+#contact a {
+  color: #2200CC;
+}
+#form-header h3 {
+  margin-top: 0;
+  margin-left: 5px;
+}
+.form-group {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#map {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+
+@media screen and (max-width: 767px) {
+  #title h2 {
+    font-size: 2em;
+  }
+  #contact-header h1 {
+    font-size: 1.3em;
+  }
+  #contact-info p {
+    font-size: 1em;
+  }
+  #form-header h3 {
+    font-size: 1.1em;
+  }
+}
+
+ /*Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #title h2 {
+    font-size: 3em;
+  }
+}
+
+/* tablets/desktops and up ----------- */
+
+@media (min-width: 992px) {
+  #title h2 {
+    font-size: 4em;
+  }
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+p {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.2em;
+}
+
+/*footer*/
+
+#footer {
+  padding: 20px 0;
+}
+.twitter-follow-button {
+  float: left;
+  margin: 5px 5px;
+  display: inline-block;
+}
+.fb-like {
+  float: left;
+  margin: 5px 5px;
+}
+.copyright {
+  float: right;
+  margin: 5px 5px;
+}
+.copyright p {
+  font-size: 1em;
+}
+
+/*loading icon while the page loads*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/LOGO-AC1.jpg) center no-repeat #fff;
+}

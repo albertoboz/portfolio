@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Alberto Chiorboli Portfolio</title>
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link href="css/papertext.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".navbar">
+  <div class="se-pre-con"></div>
+  <!-- navigation bar starts here -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+        <div class="logo navbar-brand">
+          <a href="#">A C</a>
+        </div>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#index">home</a>
+          </li>
+          <li class="dropdown" role="presentation">
+            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">work<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#work1">work 1</a>
+              </li>
+              <li>
+                <a href="#work2">work 2</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#learn-more">learn more</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div><!-- nav -->
+    </div><!-- end nav container -->
+  </nav><!-- end nav bar -->
+
+  <div class="container-fluid anchor diagonal" id="index">
+    <div id="title">
+      <!-- <h1></h1> -->
+      <h1 class="flag">ALBERTO</h1>
+      <h1 class="flag">CHIORBOLI</h1>
+    </div>
+    <p id="profession">Full-Stack Web Developer</p>
+    <div class="icons">
+      <i class="devicon-html5-plain-wordmark colored"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain"></i>
+      <i class="devicon-jquery-plain-wordmark colored"></i>
+      <i class="devicon-ruby-plain-wordmark colored"></i>
+      <i class="devicon-rails-plain-wordmark colored"></i>
+      <i class="devicon-python-plain-wordmark"></i>
+      <i class="devicon-heroku-line-wordmark colored"></i>
+    </div>
+  </div><!-- /container -->
+
+
+  <div class="container-fluid anchor" id="work1">
+    <header>
+      <h1>Work 1</h1>
+    </header>
+    <div class="row" id="row-work1">
+    </div><!-- /row-->
+    <div class="description">
+      <p>Created a responsive portfolio website with three different breakpoints, using Boostrap framework<br>
+      Languages used in this project:<strong>HTML - CSS - jQuery</strong></p>
+    </div><!-- /work 1-->
+  </div><!-- /container -->
+
+
+  <div class="container-fluid anchor" id="work2">
+    <header>
+      <h1>Work 2</h1>
+    </header>
+    <div class="row" id="row-work2">
+      <a target="_blank" href="https://bestbikes.herokuapp.com/">
+        <div class="col-xs-12 col-sm-6 col-md-6 img-work2">
+          <img class="img-responsive" src="img/ecommerce.png">
+        </div>
+      </a>
+    </div><!-- /row-->
+    <div class="description">
+      <p>Created an E-commerce site.<br>
+      Languages used in this project:<strong> Ruby on Rails, HTML, CSS, Javascript, jQuery</strong></p>
+    </div><!-- /work 2-->
+  </div><!-- /container -->
+
+
+  <div class="container-fluid anchor" id="about">
+    <header>
+      <h1>about alberto chiorboli</h1>
+    </header>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4" id="first-col"><img alt="profile picture" id="img-profile" src="img/profilepic.png"></div>
+      <div class="col-xs-12 col-sm-6 col-md-4" id="intro">
+        <h2>Introduction</h2>
+        <p>I like to find new innovative ways and make them look simple.</p>
+      </div>
+      <div class="col-xs-8 col-sm-6 col-md-4" id="skills">
+        <h3>My Skills</h3>
+        <ul id="skill-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Javascript</li>
+          <li>jQuery</li>
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </div><!-- /row -->
+    <div class="main-text">
+      <h3>More about me</h3>
+      <p>In the last years I had the chance to live in some of the most amazing european cities, such as London, Athens and Berlin where I currently live,
+         although I come from Milan, Italy. I am a curious person and I like to discover new things to add to my knowledge and apply them in my everyday life.
+         I have always been passionate about coding, innovation and technology therefore I decided to become a web developer so that I can pursue my passion
+         and express my creativity in the websites I develop. I am currently attending an online Full-Stack Web Development course with Careerfoundry.</p>
+    </div>
+    <button type="button" class="btn btn-default git-button" data-toggle="tooltip" data-placement="right" title="GitHub Portfolio">GitHub Profile &raquo;</button>
+  </div><!-- /container -->
+
+  <div class="container-fluid anchor" id="learn-more">
+    <div class="row learn-more-row clearfix">
+      <h2 class="learn-more float-left"><a href="https://de.linkedin.com/in/albertochiorboli" target="_blank" title="LinkedIn Profile" data-placement="right" id="linkedin">Learn More</a></h2>
+      <div class="modal-button btn-learn">
+        <button class="btn btn-primary btn-style" data-target=".resume" data-toggle="modal">View Resume</button>
+      </div>
+    </div>
+    <div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade resume" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4 class="modal-title" id="myModalLabel">Alberto Chiorboli &#10072; Resume</h4>
+          </div>
+          <div class="modal-body">
+            <embed id="modalembed" src="resume/AC-resume.pdf">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapseOne"><span class="glyphicon glyphicon-plus"></span> Why did you decide to become a web developer?</a></h4>
+        </div>
+        <div class="panel-collapse collapse in" id="collapseOne">
+          <div class="panel-body">
+            I have always been passionate about coding, innovation and technology therefore I decided to become a web developer so that I can pursue my passion and express my creativity in the websites I develop.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span> What is your design process?</a></h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapseTwo">
+          <div class="panel-body">
+            <ol>
+              <li>Learn all I can about the target audience.</li>
+              <li>Find out the format and budgetary constraints.</li>
+              <li>Brainstorm design solutions and sketch out several quick ideas.</li>
+              <li>Develop the roughs. Get feedback from the team or client on which is most successful for their needs.</li>
+              <li>Use the last round of feedback to polish up the project into the finished product.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapseThree"><span class="glyphicon glyphicon-plus"></span> What is your average project turnaround?</a></h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapseThree">
+          <div class="panel-body">
+            The average turnaround time on a project is 1-1.5 months.<br>
+            Turnaround times may vary with the complexity of the project.
+          </div>
+        </div>
+      </div>
+    </div><!-- /accordion -->
+  </div><!-- /container -->
+
+  <div class="container-fluid anchor" id="contact" data-stellar-background-ratio="0.5">
+    <header id="contact-header">
+      <h1>Contact</h1>
+    </header>
+    <div class="row" id="contact-info">
+      <div class="col-xs-12 col-sm-5 col-md-5">
+        <div id="map"></div>
+        <!-- <iframe width="100%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJw2ujT71PqEcRoLyQruQ5qKQ&key=AIzaSyBl962nO0ZoqZTou6t91zxKj5TbFBdYHXg" allowfullscreen></iframe> -->
+        <p><span class="glyphicon glyphicon-phone"></span> +4915236611607</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> alberto.chiorboli@gmail.com</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Address: Kopfstr. 47 Berlin, Germany 12053</p>
+      </div>
+      <div class="col-xs-12 col-sm-7 col-md-7">
+        <div id="form-header">
+          <h3>Let's talk!</h3>
+        </div>
+        <form id="contact-form" name="contact" method="POST" action="http://formspree.io/alberto.chiorboli@gmail.com">
+          <div class="form-group col-xs-12 col-sm-6 col-md-6 form-name">
+            <label class="sr-only" for="name">Name*</label> <input class="form-control" id="name" name="name" placeholder="Enter your name*" required title="Name" type="text">
+          </div>
+          <div class="form-group col-xs-12 col-sm-6 col-md-6 form-phone">
+            <label class="sr-only" for="phone">Phone Number</label> <input class="form-control" id="phone" name="phone" placeholder="Enter your phone number" title="Phone number" type="number">
+          </div>
+          <div class="form-group col-xs-12 col-sm-12 col-md-12">
+            <label class="sr-only" for="email">Email address*</label> <input class="form-control" id="email" name="email" placeholder="Enter your email address*" required title="Email address" type="email">
+          </div>
+          <div class="form-group col-xs-12 col-sm-12 col-md-12">
+            <label class="sr-only" for="text-box">Your Message*</label>
+            <textarea class="form-control message-box" cols="40" id="text-box" name="text-box" placeholder="Your message here*" required rows="5" style="resize:none" title="Message"></textarea>
+            <p id="visible-comment"></p>
+            <p id="char-count"></p>
+          </div>
+          <button class="btn btn-dafault btn-style" id="submit-btn" type="submit" value="Send">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div><!-- /row -->
+  </div><!-- /container -->
+
+  <div class="container" id="footer">
+    <footer>
+      <a class="twitter-follow-button" data-show-count="true" href="https://twitter.com/albertoboz">Follow @albertoboz</a>
+      <div class="fb-like" data-action="like" data-href="https://www.facebook.com/beshorter/" data-layout="standard" data-share="false" data-show-faces="false" data-size="small" data-width="225"></div>
+      <div class="copyright">
+        <p>&copy; Alberto Chiorboli 2017</p>
+        <p></p>
+      </div>
+    </footer>
+  </div><!-- /container -->
+  <!-- facebook button -->
+  <!-- <div id="fb-root"></div> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/davatron5000/Lettering.js/5a4897f9/jquery.lettering.js"></script>
+  <script src="js/work.js"></script>
+  <script src="js/scripts.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkgk6HOV2RGEhbGBTQTX18uHgr-F5zlkM&callback=initMap"></script>
+
+</body>
+</html>

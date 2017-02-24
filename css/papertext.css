@@ -1,0 +1,99 @@
+@use postcss-nested;
+@use postcss-cssnext;
+:root {
+  --font-size: 2vw;
+  --font-color: #C5BEAA;
+  --paper-color: #F9F8EF;
+  --paper-radius: 4px;
+  --paper-inclination: 8deg;
+  --paper-inclination2: -8deg;
+  --background-color: #F5C049; }
+
+/* ////////////////////////////////////////////////
+//////////////////////////////////////////////// */
+:root {
+  --paper-shadow: color(var(--background-color) shade(50%));
+  --bg-color-dark-shade30: color(var(--paper-color) shade(20%));
+  --bg-color-dark-shade15: color(var(--paper-color) shade(5%));
+  --transition-duration: 200ms;
+  --paper-light: color(var(--paper-color) shade(5%)); }
+
+#index {
+  background-color: var(--background-color); }
+
+/* Paper Sheet */
+h1.flag {
+  white-space: nowrap;
+  font-size: var(--font-size);
+  position: relative;
+  cursor: default;
+  /* Paper Shadow */
+  /* Each letter */
+  /* Hover interaction */ }
+  h1.flag:before {
+    content: '';
+    position: relative;
+    bottom: 0;
+    background-color: var(--paper-shadow);
+    width: 89%;
+    left: 4%;
+    height: 40%;
+    filter: blur(2vw);
+    transition: all var(--transition-duration) cubic-bezier(0, 0, 0.2, 1); }
+  h1.flag span {
+    user-select: none;
+    display: inline-block;
+    width: 3em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+    /* Solid Surface */
+    /* Odd letters */
+    /* Even letters */
+    /* Paper border-radius */ }
+    h1.flag span:before {
+      content: '';
+      background-color: var(--paper-color);
+      transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1; }
+    h1.flag span:nth-child(odd) {
+      transform: skewY(var(--paper-inclination2));
+      color: var(--font-color);
+      background: linear-gradient(-30deg, #F9F8EF, #EAE9E1);
+      background: -webkit-linear-gradient(-30deg, #F9F8EF, #EAE9E1);
+      box-shadow: inset -1px 0 0px rgba(255, 255, 255, 0.3);
+      prospective: 1000px; }
+    h1.flag span:nth-child(even) {
+      transform: skewY(var(--paper-inclination));
+      color: var(--font-color);
+      background: linear-gradient(87deg, #EAE9E1, #F9F8EF);
+      background: -webkit-linear-gradient(87deg, #EAE9E1, #F9F8EF);
+      box-shadow: inset -1px 0 0px rgba(0, 0, 0, 0.05);
+      prospective: 1000px; }
+    h1.flag span:first-of-type, h1.flag span:first-of-type:before {
+      border-radius: var(--paper-radius) 0 0 var(--paper-radius); }
+    h1.flag span:last-of-type, h1.flag span:last-of-type:before {
+      border-radius: 0 var(--paper-radius) var(--paper-radius) 0; }
+  h1.flag:hover:before {
+    filter: blur(2px);
+    left: 1%;
+    width: 98%; }
+  h1.flag:hover span {
+    transform: none;
+    color: var(--font-color);
+    box-shadow: none;
+    transition-duration: var(--transition-duration);
+    width: 3.1em; }
+    h1.flag:hover span:before {
+      opacity: 1;
+      transition-duration: var(--transition-duration); }
+
+/*# sourceMappingURL=papertext.css.map */
