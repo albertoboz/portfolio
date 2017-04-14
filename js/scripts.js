@@ -193,24 +193,24 @@ $(document).ready(function() {
 
 
   // work1 section
-  for (var i = 0; i < work1.length; ++i) {
-    $("#row-work1").append("\
-      <div class='col-xs-12 col-sm-6 col-md-3'>\
-        <div class='work-layout'>\
-          <a href='" + work1[i].url + "' class='work-img'>\
-            <img class='img-responsive' src='" + work1[i].pic + "'>\
-            <span class='info'> " + work1[i].title + " </span>\
-          </a>\
-        </div>\
-      </div>\
-      ");
-    var images = $("#row-work1 img");
-    if (i % 2 === 0) {
-      $(images[i]).css("border", "2px solid DodgerBlue");
-    } else {
-      $(images[i]).css("border", "2px solid salmon");
-    };
-  };
+  // for (var i = 0; i < work1.length; ++i) {
+  //   $("#row-work1").append("\
+  //     <div class='col-xs-12 col-sm-6 col-md-3'>\
+  //       <div class='work-layout'>\
+  //         <a href='" + work1[i].url + "' class='work-img'>\
+  //           <img class='img-responsive' src='" + work1[i].pic + "'>\
+  //           <span class='info'> " + work1[i].title + " </span>\
+  //         </a>\
+  //       </div>\
+  //     </div>\
+  //     ");
+  //   var images = $("#row-work1 img");
+  //   if (i % 2 === 0) {
+  //     $(images[i]).css("border", "2px solid DodgerBlue");
+  //   } else {
+  //     $(images[i]).css("border", "2px solid salmon");
+  //   };
+  // };
 
   // work2 section with while loop
   // var i = 0;
